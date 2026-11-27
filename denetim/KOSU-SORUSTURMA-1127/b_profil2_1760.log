@@ -1,0 +1,157 @@
+başladı · boş RAM 12.2 GB · r_km 201.6 · tarih 1760-03-11
+gövde 346 · 24 sn · RSS 0.1 GB
+taklit ızgara 1 sn · etiketli hücre %14.0 · RSS 0.2 GB
+      [yavas] almanya                      4.0 sn (kapanis)
+      [yavas] avusturya                    4.1 sn (kapanis)
+      [yavas] danimarka                    39.6 sn (kapanis)
+      [yavas] dene                         6.3 sn (kapanis)
+      [yavas] edo-bakufu                   7.0 sn (kapanis)
+      [yavas] fransa                       29.0 sn (kapanis)
+      [yavas] guney-konu-kanal-halklari    10.2 sn (kapanis)
+      [yavas] hollanda                     15.8 sn (kapanis)
+      [yavas] hollanda-dogu-hint           6.4 sn (kapanis)
+      [yavas] ingiltere                    44.4 sn (kapanis)
+      [yavas] inuit                        31.3 sn (kapanis)
+      [yavas] ispanya                      27.8 sn (kapanis)
+      [yavas] ispanyol-filipinler          6.2 sn (kapanis)
+      [yavas] isvec                        32.8 sn (kapanis)
+      [yavas] joseon                       5.4 sn (kapanis)
+      [yavas] lehistan                     4.8 sn (kapanis)
+      [yavas] portekiz                     17.5 sn (kapanis)
+      [yavas] portekiz-brezilyasi          5.1 sn (kapanis)
+      [yavas] prusya                       4.1 sn (kapanis)
+      [yavas] qing-hanedani                11.8 sn (kapanis)
+      [yavas] rusya                        11.7 sn (kapanis)
+      [yavas] venedik                      4.1 sn (kapanis)
+      [yavas] yeni-ispanya                 6.8 sn (kapanis)
+      [yavas] zend                         4.5 sn (kapanis)
+
+=== 1) SOĞUK — hepsi hesaplanır === 3652 sn · parça 1615 · RSS 0.3 GB · tepe 4.8 GB
+   önbellek dolgu2_kesit   isabet    0 · ıska    1 · yazılan    1 · okuma 0.0 sn · yazma 0.1 sn
+   önbellek dolgu2_talep   isabet    0 · ıska  346 · yazılan  346 · okuma 0.0 sn · yazma 0.3 sn
+   önbellek dolgu2_devlet  isabet    0 · ıska  342 · yazılan  342 · okuma 0.0 sn · yazma 0.1 sn
+   rapor: kapanış 794 sn · çekişme 2193 sn · cins 275 sn
+   işlev _talep                346 çağrı    793.7 sn
+   işlev _deniz_kapanisi       346 çağrı    510.3 sn
+   işlev _paylas               853 çağrı     41.2 sn
+   işlev _paylas_surtunme      853 çağrı     39.9 sn
+   işlev _delik_talebi         342 çağrı     35.4 sn
+   işlev _cins                 757 çağrı      6.0 sn
+   işlev _koridor_kirp          32 çağrı      0.1 sn
+   _devlet_hesap: 342 çağrı · toplam 2858 sn · en pahalı 10'u toplamın %47'i
+        404.6 sn  ingiltere                  komşu gövde 273 · komşu talep 272 · ham köşe 31663
+        274.3 sn  fransa                     komşu gövde 254 · komşu talep 252 · ham köşe 27777
+        243.5 sn  danimarka                  komşu gövde 165 · komşu talep 168 · ham köşe 35118
+        133.4 sn  ispanya                    komşu gövde 277 · komşu talep 286 · ham köşe 14004
+         79.4 sn  qing-hanedani              komşu gövde  46 · komşu talep  48 · ham köşe 24542
+         58.0 sn  isvec                      komşu gövde  12 · komşu talep  18 · ham köşe 33890
+         53.7 sn  inuit                      komşu gövde  16 · komşu talep  17 · ham köşe 47853
+         52.5 sn  rusya                      komşu gövde  40 · komşu talep  41 · ham köşe 31411
+         24.3 sn  kazak-hanligi              komşu gövde  15 · komşu talep  24 · ham köşe 2264
+         20.6 sn  hollanda                   komşu gövde 238 · komşu talep 238 · ham köşe 3372
+         19.9 sn  almanya                    komşu gövde  42 · komşu talep  43 · ham köşe 2502
+         16.8 sn  haydarabad-nizam           komşu gövde  23 · komşu talep  22 · ham köşe 1612
+         16.3 sn  venedik                    komşu gövde  28 · komşu talep  31 · ham köşe 3905
+         15.8 sn  portekiz                   komşu gövde 240 · komşu talep 250 · ham köşe 5170
+         14.9 sn  portekiz-brezilyasi        komşu gövde  16 · komşu talep  15 · ham köşe 6850
+      komşu gövde sayısı: medyan 8 · p90 17 · en çok 277 (kesitte 346 gövde)
+   _paylas: 853 çağrı · toplam 41 sn · pencere hücre medyan 6643 · en büyük 2619188 · >1M hücre 8 çağrı
+          3.6 sn  pencere     26364 hücre · alan köşe 599
+          2.6 sn  pencere    203689 hücre · alan köşe 22548
+          2.0 sn  pencere    203689 hücre · alan köşe 22472
+          1.7 sn  pencere   1862499 hücre · alan köşe 12280
+          1.4 sn  pencere   1862499 hücre · alan köşe 12260
+          1.2 sn  pencere    107408 hücre · alan köşe 11825
+          0.9 sn  pencere     70735 hücre · alan köşe 8688
+          0.7 sn  pencere     70735 hücre · alan köşe 8678
+   YUTMA: {}
+
+=== 2) AYNI kesit yeniden (kesit önbelleği isabet etmeli) === 0 sn · parça 1615 · RSS 0.2 GB · tepe 4.8 GB
+   önbellek dolgu2_kesit   isabet    1 · ıska    0 · yazılan    0 · okuma 0.0 sn · yazma 0.0 sn
+   önbellek dolgu2_talep   isabet    0 · ıska    0 · yazılan    0 · okuma 0.0 sn · yazma 0.0 sn
+   önbellek dolgu2_devlet  isabet    0 · ıska    0 · yazılan    0 · okuma 0.0 sn · yazma 0.0 sn
+   rapor: kapanış 794 sn · çekişme 2193 sn · cins 275 sn
+   YUTMA: {}
+
+=== 3) KÜÇÜK devlet oynatıldı: ayutthaya === 740 sn · parça 1615 · RSS 0.3 GB · tepe 4.8 GB
+   önbellek dolgu2_kesit   isabet    0 · ıska    1 · yazılan    1 · okuma 0.0 sn · yazma 0.0 sn
+   önbellek dolgu2_talep   isabet    0 · ıska    1 · yazılan    1 · okuma 0.0 sn · yazma 0.0 sn
+   önbellek dolgu2_devlet  isabet  323 · ıska   19 · yazılan   19 · okuma 0.1 sn · yazma 0.0 sn
+   rapor: kapanış 4 sn · çekişme 614 sn · cins 46 sn
+   işlev _delik_talebi          19 çağrı     12.3 sn
+   işlev _paylas                96 çağrı      6.5 sn
+   işlev _paylas_surtunme       96 çağrı      6.4 sn
+   işlev _talep                  1 çağrı      3.7 sn
+   işlev _cins                 114 çağrı      2.4 sn
+   işlev _deniz_kapanisi         1 çağrı      2.2 sn
+   işlev _koridor_kirp           4 çağrı      0.0 sn
+   _devlet_hesap: 19 çağrı · toplam 736 sn · en pahalı 10'u toplamın %96'i
+        399.5 sn  ingiltere                  komşu gövde 273 · komşu talep 272 · ham köşe 31663
+        161.9 sn  ispanya                    komşu gövde 277 · komşu talep 286 · ham köşe 14004
+         79.0 sn  qing-hanedani              komşu gövde  46 · komşu talep  48 · ham köşe 24542
+         16.0 sn  portekiz                   komşu gövde 240 · komşu talep 250 · ham köşe 5170
+         12.5 sn  hollanda-dogu-hint         komşu gövde  19 · komşu talep  21 · ham köşe 6748
+         10.7 sn  konbaung                   komşu gövde  15 · komşu talep  16 · ham köşe 3459
+          7.4 sn  ayutthaya                  komşu gövde  17 · komşu talep  18 · ham köşe 3330
+          6.4 sn  laos-kralliklari           komşu gövde  12 · komşu talep  13 · ham köşe 1404
+          6.2 sn  san-devletleri             komşu gövde  12 · komşu talep  13 · ham köşe 963
+          5.9 sn  kamboc-kralligi            komşu gövde  10 · komşu talep  11 · ham köşe 1965
+          5.5 sn  dogu-sumatra-sultanliklari komşu gövde  10 · komşu talep  11 · ham köşe 1579
+          4.8 sn  ace-sultanligi             komşu gövde   8 · komşu talep  11 · ham köşe 1093
+          4.2 sn  le-hanedani                komşu gövde   6 · komşu talep   8 · ham köşe 1639
+          4.1 sn  nguyen-beyligi             komşu gövde   9 · komşu talep  10 · ham köşe 2070
+          3.9 sn  malay-sultanliklari        komşu gövde  11 · komşu talep  13 · ham köşe 1277
+      komşu gövde sayısı: medyan 11 · p90 273 · en çok 277 (kesitte 346 gövde)
+   _paylas: 96 çağrı · toplam 7 sn · pencere hücre medyan 14873 · en büyük 1862499 · >1M hücre 4 çağrı
+          1.7 sn  pencere   1862499 hücre · alan köşe 12280
+          0.3 sn  pencere   1728405 hücre · alan köşe 936
+          0.3 sn  pencere     41377 hücre · alan köşe 2805
+          0.3 sn  pencere   1728405 hücre · alan köşe 904
+          0.2 sn  pencere   1033518 hücre · alan köşe 1541
+          0.2 sn  pencere     14214 hücre · alan köşe 2672
+          0.2 sn  pencere     26600 hücre · alan köşe 1426
+          0.2 sn  pencere    200960 hücre · alan köşe 1327
+   YUTMA: {}
+      [yavas] ingiltere                    32.4 sn (kapanis)
+
+=== 4) BÜYÜK devlet oynatıldı: ingiltere === 2844 sn · parça 1615 · RSS 0.3 GB · tepe 4.8 GB
+   önbellek dolgu2_kesit   isabet    0 · ıska    1 · yazılan    1 · okuma 0.0 sn · yazma 0.1 sn
+   önbellek dolgu2_talep   isabet    0 · ıska    1 · yazılan    1 · okuma 0.0 sn · yazma 0.0 sn
+   önbellek dolgu2_devlet  isabet   69 · ıska  273 · yazılan  273 · okuma 0.0 sn · yazma 0.1 sn
+   rapor: kapanış 32 sn · çekişme 2181 sn · cins 266 sn
+   işlev _paylas               757 çağrı     34.9 sn
+   işlev _paylas_surtunme      757 çağrı     33.8 sn
+   işlev _talep                  1 çağrı     32.4 sn
+   işlev _delik_talebi         273 çağrı     31.5 sn
+   işlev _deniz_kapanisi         1 çağrı     22.6 sn
+   işlev _cins                 609 çağrı      5.5 sn
+   işlev _koridor_kirp          29 çağrı      0.1 sn
+   _devlet_hesap: 273 çağrı · toplam 2811 sn · en pahalı 10'u toplamın %51'i
+        365.7 sn  ingiltere                  komşu gövde 273 · komşu talep 272 · ham köşe 30218
+        324.9 sn  fransa                     komşu gövde 254 · komşu talep 252 · ham köşe 27777
+        287.3 sn  danimarka                  komşu gövde 165 · komşu talep 168 · ham köşe 35118
+        162.2 sn  ispanya                    komşu gövde 277 · komşu talep 286 · ham köşe 14004
+         77.5 sn  qing-hanedani              komşu gövde  46 · komşu talep  48 · ham köşe 24542
+         58.7 sn  isvec                      komşu gövde  12 · komşu talep  18 · ham köşe 33890
+         54.1 sn  inuit                      komşu gövde  16 · komşu talep  17 · ham köşe 47853
+         53.8 sn  rusya                      komşu gövde  40 · komşu talep  41 · ham köşe 31411
+         24.9 sn  almanya                    komşu gövde  42 · komşu talep  43 · ham köşe 2502
+         23.3 sn  kazak-hanligi              komşu gövde  15 · komşu talep  24 · ham köşe 2264
+         17.8 sn  hollanda                   komşu gövde 238 · komşu talep 238 · ham köşe 3372
+         16.3 sn  venedik                    komşu gövde  28 · komşu talep  31 · ham köşe 3905
+         15.6 sn  haydarabad-nizam           komşu gövde  23 · komşu talep  22 · ham köşe 1612
+         15.5 sn  portekiz                   komşu gövde 240 · komşu talep 250 · ham köşe 5170
+         14.2 sn  portekiz-brezilyasi        komşu gövde  16 · komşu talep  15 · ham köşe 6850
+      komşu gövde sayısı: medyan 10 · p90 19 · en çok 277 (kesitte 346 gövde)
+   _paylas: 757 çağrı · toplam 35 sn · pencere hücre medyan 6365 · en büyük 2619188 · >1M hücre 8 çağrı
+          2.6 sn  pencere    203689 hücre · alan köşe 22548
+          2.1 sn  pencere    203689 hücre · alan köşe 22472
+          1.4 sn  pencere   1862499 hücre · alan köşe 12290
+          1.4 sn  pencere    107408 hücre · alan köşe 11825
+          1.3 sn  pencere   1862499 hücre · alan köşe 12269
+          0.8 sn  pencere     70735 hücre · alan köşe 8678
+          0.8 sn  pencere     70735 hücre · alan köşe 8688
+          0.6 sn  pencere    432590 hücre · alan köşe 7364
+   YUTMA: {}
+
+toplam 7319 sn

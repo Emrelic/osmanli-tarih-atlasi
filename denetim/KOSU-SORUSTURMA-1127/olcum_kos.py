@@ -93,6 +93,90 @@ def durdur(p, log, neden):
     yaz(log, f"durduruldu (canlı mı: {p.is_running() if hasattr(p, 'is_running') else '?'})")
 
 
+def son_satir(yol, n=4096):
+    try:
+        with open(yol, "rb") as f:
+            f.seek(0, 2)
+            f.seek(max(0, f.tell() - n))
+            st = [s for s in f.read().decode("utf-8", "replace").splitlines() if s.strip()]
+        return st[-1].strip() if st else ""
+    except Exception:
+        return ""
+
+
+def dolgu_nobet(a, env, cikti, log):
+    """2. AŞAMA — Ⓑ dolgu, motorun yazdığı anlık görüntüden AYRI süreçte (28.11.2026).
+
+    Motor bitmiş, A çıktıları yazılmış, belleği iade edilmiştir. Bu süreç küçüktür, tek çekirdek
+    kullanır, durdurulup aynı komutla sürdürülebilir (her kesit ve her devlet hesabı önbellektedir).
+    Nöbet kuralları 1. aşamayla aynı: mesaide IDLE · mesaide bellek sıkışırsa askı · commit < 4 GB dur."""
+    dizin = a.anlik or os.path.join(a.kok, "_dolgu_anlik")
+    if not os.path.exists(os.path.join(dizin, "TAMAM")):
+        yaz(log, f"Ⓑ AYRI SÜREÇ: anlık görüntü yok ya da yarım ({dizin}) — BAŞLATILMADI")
+        return 8
+    son = dt.datetime.fromisoformat(a.dolgu_son or a.son)
+    so = open(os.path.join(cikti, "dolgu.out"), "a", encoding="utf-8", errors="replace")
+    se = open(os.path.join(cikti, "dolgu.err"), "a", encoding="utf-8", errors="replace")
+    alt = subprocess.Popen(
+        [sys.executable, "-u", os.path.join(a.kok, "arac", "dolgu.py"), "--anlik", dizin],
+        cwd=a.kok, env=env, stdin=subprocess.DEVNULL, stdout=so, stderr=se,
+        creationflags=getattr(subprocess, "CREATE_NEW_PROCESS_GROUP", 0))
+    p = psutil.Process(alt.pid)
+    yaz(log, f"Ⓑ AYRI SÜREÇ BAŞLADI: PID {alt.pid} · görüntü {dizin} · son {son:%d.%m %H:%M}")
+    with open(os.path.join(cikti, "pid.txt"), "a") as f:
+        f.write(f"dolgu {alt.pid} nobet {os.getpid()}\n")
+    t0, askida, dusuk, son_log = time.time(), False, 0, 0.0
+    while True:
+        time.sleep(a.adim)
+        kod = alt.poll()
+        if kod is not None:
+            yaz(log, f"Ⓑ SÜREÇ BİTTİ: çıkış kodu {kod} · süre {(time.time() - t0) / 3600:.2f} sa · "
+                     f"{son_satir(os.path.join(cikti, 'dolgu.out'))[:200]}")
+            return 0 if kod == 0 else 9
+        try:
+            mi = p.memory_info()
+        except psutil.NoSuchProcess:
+            continue
+        vm, sw = psutil.virtual_memory(), psutil.swap_memory()
+        ws, bos, commit_bos = mi.rss / GB, vm.available / GB, (vm.available + sw.free) / GB
+        ms = mesai()
+        hedef = psutil.IDLE_PRIORITY_CLASS if ms else psutil.NORMAL_PRIORITY_CLASS
+        try:
+            if p.nice() != hedef:
+                p.nice(hedef)
+                yaz(log, f"Ⓑ öncelik PID {p.pid} → {'IDLE' if ms else 'NORMAL'}")
+        except Exception:
+            pass
+        if ms and not askida and (ws > 16.0 or bos < 2.5):
+            dusuk += 1
+            if dusuk >= 2:
+                try:
+                    p.suspend()
+                    askida = True
+                    yaz(log, f"Ⓑ ASKIYA ALINDI (mesai): çalışma kümesi {ws:.1f} GB · boş RAM {bos:.1f} GB")
+                except Exception:
+                    pass
+        else:
+            dusuk = 0
+        if askida and (not ms or bos > 5.0):
+            try:
+                p.resume()
+            except Exception:
+                pass
+            askida = False
+            yaz(log, "Ⓑ SÜRDÜRÜLDÜ")
+        if commit_bos < 4.0:
+            durdur(p, log, f"Ⓑ: boş commit payı {commit_bos:.1f} GB < 4")
+            return 6
+        if dt.datetime.now() >= son:
+            durdur(p, log, f"Ⓑ: son an geldi ({son:%d.%m %H:%M}) — kaldığı yerden aynı komutla sürer")
+            return 7
+        if time.time() - son_log >= 300.0:
+            son_log = time.time()
+            yaz(log, f"Ⓑ nöbet · çalışma {ws:.1f} GB · boş RAM {bos:.1f} GB{' · ASKIDA' if askida else ''}"
+                     f"{' · mesai' if ms else ''} · {son_satir(os.path.join(cikti, 'dolgu.out'))[:220]}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--kok", required=True, help="ölçüm ağacı (motorun koşacağı kopya)")
@@ -108,6 +192,10 @@ def main():
                     help="ek ortam değişkeni AD=DEĞER (MOTOR_ ile BAŞLAMAMALI: tuzu değiştirir); yinelenebilir")
     ap.add_argument("--duman", action="store_true",
                     help="duman sınaması: mesai ön denetimini atlar (kısa --son ile; süreç IDLE öncelikte kalır)")
+    ap.add_argument("--anlik", default="", help="Ⓑ anlık görüntü dizini (boşsa <kok>/_dolgu_anlik)")
+    ap.add_argument("--dolgu-son", default="", help="Ⓑ ayrı süreci için son an (boşsa --son)")
+    ap.add_argument("--yalniz-dolgu", action="store_true",
+                    help="motoru KOŞTURMAZ: yalnız 2. aşama (Ⓑ, var olan anlık görüntüden). Durdur-düzelt-sürdür için")
     a = ap.parse_args()
 
     cikti = os.path.join(a.kok, "olcum")
@@ -124,10 +212,10 @@ def main():
             time.sleep(min(30.0, max(1.0, (hedef - dt.datetime.now()).total_seconds())))
     # ── ön denetim ──────────────────────────────────────────────────────────
     vm = psutil.virtual_memory()
-    if mesai() and not a.kuru_motor and not a.duman:
+    if mesai() and not a.kuru_motor and not a.duman and not a.yalniz_dolgu:
         yaz(log, "ÖN DENETİM: eczane mesaisi içinde — BAŞLATILMADI")
         return 4
-    if vm.available / GB < 8.0 and not a.kuru_motor:
+    if vm.available / GB < (4.0 if a.yalniz_dolgu else 8.0) and not a.kuru_motor:
         yaz(log, f"ÖN DENETİM: boş RAM {vm.available / GB:.1f} GB < 8 — BAŞLATILMADI")
         return 4
     if psutil.disk_usage(a.kok).free / GB < 40.0:
@@ -146,6 +234,9 @@ def main():
     with open(os.path.join(cikti, "bayraklar.log"), "w", encoding="utf-8") as f:
         for k in sorted(k for k in env if k.startswith("MOTOR_") or k.startswith("DOLGU_")):
             f.write(f"{k}={env[k]}\n")
+    if a.yalniz_dolgu:
+        return dolgu_nobet(a, env, cikti, log)
+    anlik_tamam = os.path.join(a.anlik or os.path.join(a.kok, "_dolgu_anlik"), "TAMAM")
     so = open(os.path.join(cikti, "motor.out"), "w", encoding="utf-8", errors="replace")
     se = open(os.path.join(cikti, "motor.err"), "w", encoding="utf-8", errors="replace")
     alt = subprocess.Popen(
@@ -169,7 +260,15 @@ def main():
         kod = alt.poll()
         if kod is not None:
             yaz(log, f"SÜREÇ BİTTİ: çıkış kodu {kod} · süre {(time.time() - t0) / 3600:.2f} sa")
-            return 0
+            # 2. aşama: motor BU koşuda anlık görüntü yazdıysa (motor sonradan düşmüş olsa bile) Ⓑ hesaplanır.
+            try:
+                taze = os.path.getmtime(anlik_tamam) >= t0
+            except OSError:
+                taze = False
+            if taze:
+                return dolgu_nobet(a, env, cikti, log)
+            yaz(log, "Ⓑ: bu koşuda yazılmış anlık görüntü yok — 2. aşama yok")
+            return 0 if kod == 0 else 9
         try:
             mi = p.memory_info()
         except psutil.NoSuchProcess:

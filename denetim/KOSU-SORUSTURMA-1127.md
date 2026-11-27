@@ -191,7 +191,10 @@ devlet yeniden hesaplandı. Son 505 kesitte dağılım üç kümeli: ~20–40, ~
 
 ### 2.5 Tek kesit profili [ÖLÇÜLDÜ — bkz. Ek A]
 
-_(Ölçüm sürüyor; sonuç Ek A'ya işlenecek.)_
+1760 kesiti eski kodla soğuk 3.652–4.110 sn; sürenin %78–80'i devlet hesabı, %54–60'ı onun içindeki
+talep kesişimleri.
+Siam'ı 100 m oynatmak 19 devleti (ingiltere 400 sn, ispanya 162 sn) yeniden hesaplatıp 740 sn tuttu.
+N1 doğrulandı; N2'nin (küresel engel) payı ayrıca ölçülmedi ama aynı düzeltmeyle kapandı.
 
 ---
 
@@ -432,6 +435,82 @@ kısmen sürer. Kalıcı çare aşamaları **ayrı süreçlere** bölmektir (her
 
 ---
 
-## Ek A. Tek kesit Ⓑ profili (1760-03-11)
+## Ek A. Tek kesit Ⓑ profili (1760-03-11) [ÖLÇÜLDÜ 27.11, HAVVA, IDLE öncelik, mesai içi]
 
-_(Ölçüm sürüyor.)_
+Girdi: Koşu 40'ın `devletler_harita.js`i, 346 yabancı gövde (Osmanlı gövdesi yok: `donemler.js`
+yazılmamıştı), toplam 198.589 köşe. ESKİ kod (Koşu 40'ın `dolgu.py`si), önbellek boş.
+Betikler ve ham loglar: `b_profil.py` → `b_profil_1760.log` (kancasız) · `b_profil2.py` →
+`b_profil2_1760.log` (taklit ızgarayla sürtünmeli paylaşım; gerçek `_YR_SAHIP` diskte yok).
+
+| Ölçüm | Kancasız | Taklit ızgaralı |
+|---|---|---|
+| Kesit toplamı (soğuk) | 4.110 sn | 3.652 sn |
+| Kapanış (`_talep`) | 823 sn | 794 sn (içinde `_deniz_kapanisi` 510 sn) |
+| Devlet hesabı (`_devlet_hesap`, 342 çağrı) | 3.288 sn | 2.858 sn |
+| — içinde çekişme (talep kesişimleri) | 2.234 sn | 2.193 sn |
+| — içinde cins | 280 sn | 275 sn |
+| — içinde paylaşım (`_paylas`, 853 çağrı) | — | 41 sn |
+| Tepe bellek (JSON okurken) | 4,8 GB | 4,8 GB |
+
+En pahalı devlet hesapları (taklit ızgaralı): ingiltere 405 sn (kutu komşusu 273 gövde) · fransa 274 sn
+(254) · danimarka 244 sn (165) · ispanya 133 sn (277) · qing 79 sn (46). Kutu komşusu sayısı: medyan 8,
+p90 17, en çok 277 — yani 346 gövdenin birkaçı dünyanın tamamını komşu sayıyor.
+
+**Yeniden hesap deneyi (aynı kesit, önbellek sıcak, eski kod):** Ayutthaya (Siam) gövdesi 100 m
+oynatıldı ⇒ **19 devlet yeniden hesaplandı, 740 sn**: ingiltere 400 sn, ispanya 162 sn, qing 79 sn,
+portekiz 16 sn. Koşu 40'ta kesit başına 1.767 sn'ye çıkan sürenin mekanizması budur (§2.4-N1).
+
+Okuma: sürtünmeli paylaşım (18.11 yamasının ızgara işi) ucuz (41 sn); pahalı olan, kutu komşuluğuyla
+yüzlerce gövdeye karşı yapılan talep kesişimleri ve bunların her küçük değişiklikte dünya çapında
+gövdeler için yinelenmesi. Düzeltme: `arac/dolgu.py` DOLGU-YEREL-1127 (dal
+`origin/motor-b-dolgu-yerel-1127`); eşitlik ve hız ölçümü Ek C'de.
+
+---
+
+## Ek C. DOLGU-YEREL-1127 düzeltmesinin sınavı [ÖLÇÜLDÜ 27.11, HAVVA, IDLE öncelik, mesai içi]
+
+Betik: `denetim/KOSU-SORUSTURMA-1127/dolgu_esitlik.py` (motoru koşturmaz; Koşu 40'ın
+`devletler_harita.js`i + taklit ızgara + taklit engel; önbellek dosyası açmaz). ESKİ = Koşu 40'ın
+`dolgu.py`si (sha256 `da2eb150…`), YENİ = bu dal.
+
+**C.1 Eşitlik (aynı girdi, ikisi de sıfırdan).** Sadeleştirme ve kanonik adım kapalıyken iki kod aynı
+geometriyi vermeli; komşuluk daraltmasının kanıtı budur.
+
+| Kesit | Gövde | ESKİ ↔ YENİ (sadeleştirme öncesi) | Engellenen listesi |
+|---|---|---|---|
+| 0800-01-01 | 80 | AYNI · 448/448 ayrık parça · simetrik fark 2,3e-15 derece² | aynı |
+| 1300-06-15 | 339 | **bit bit AYNI** · 1.127/1.127 ayrık parça · simetrik fark 0 | aynı |
+| 1550-06-15 | 320 | sürüyor (27.11 20:00) | |
+| 1760-03-11 | 346 | sürüyor | |
+
+**Bilinen ve beyan edilen fark:** üretim ayarında (sadeleştirme 0,01° açık) YENİ çıktı ESKİ çıktıyla bit
+düzeyinde aynı DEĞİLDİR: 0800 kesitinde toplam 602,8 derece² dolguda simetrik fark 6,5e-3 derece²
+(en büyüğü `silla` 2,5e-3 ≈ 25 km², kıyı kırıntısı). Sebep ölçüldü: Douglas-Peucker sadeleştirmesi
+halkanın başlangıç köşesinden demirler ve o köşe, çıkarılan komşu kümesine göre değişiyordu; yani ESKİ
+kodun çıktısı da komşu kümesinin bir yan ürünüydü. YENİ kod parçayı önce kanonik biçime getirir
+(`shapely.normalize`), sonuç yalnız geometriye bağlıdır. Kural değişmedi; kırıntının yeri değişti.
+
+**C.2 Ezber sağlamlığı (bayat sonuç okunuyor mu).** Girdi değiştirilip ezber sıcakken hesaplanan sonuç,
+ezber boşaltılıp sıfırdan hesaplananla karşılaştırıldı: 0800 ve 1300'de hepsi AYNI (simetrik fark 0).
+
+| Kesit | Oynatılan | Yeniden hesaplanan devlet | Süre |
+|---|---|---|---|
+| 1300 | manica (orta boy gövde, 100 m) | 3 / 334 | 1 sn |
+| 1300 | altinorda (en büyük gövde, 100 m) | 22 / 334 | 53 sn |
+| 1760 (ESKİ kod, Ek A) | ayutthaya | 19 / 342 | 740 sn |
+
+**C.3 Hız (soğuk kesit, üretim ayarı).** 1760-03-11: YENİ **1.787 sn** (kapanış 827 · çekişme 714 · cins
+56), ESKİ 3.652–4.110 sn (Ek A). Kapanış payı koşuda Koşu 40'ın kayıtlarından (miras) gelir.
+
+**C.4 Sınavın KÖR kaldığı yer.** "Deliğe düşen engel noktası sonucu değiştirmeli" denetimi üç kesitte
+de fark üretmedi (12 aday delik denendi): bu kesitlerde delik kuralına kalan dolu delik yok, küçük
+delikleri kapanış zaten dolduruyor. Yerel engel anahtarının doğruluğu kodla gerekçeli
+(`_engel_yerel_oz` başlığı), ölçümle GÖSTERİLMEDİ.
+
+**C.5 Ayrı süreç yolu.** `denetim/KOSU-SORUSTURMA-1127/anlik_esitlik.py`: aynı 7 kesit üç yoldan
+(süreç içi · anlık görüntüden ayrı süreç, devlet kayıtları silinmiş · ayrı süreç, sıcak) hesaplanır,
+`dolgu.js` dosyaları bayt bayt karşılaştırılır. Sonuç `KOSU-GOZLEM-1128.md`de.
+
+**C.6 Ölçülmeyen.** Gerçek motor bağlamıyla (gerçek `_YR_SAHIP`, gerçek duvar ve engel) hiçbir sınav
+yapılmadı: motor 28.11 02:05'ten önce koşturulamadı. Tam koşuda kesit başına süre ÖLÇÜLMEDİ; ilk sayı
+koşunun kendi ilerleme satırından gelecek.

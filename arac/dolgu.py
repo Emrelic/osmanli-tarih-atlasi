@@ -117,6 +117,10 @@ TEMAS = 0.02
 # Üçü de None ise davranış YAMADAN ÖNCEKİ ile aynıdır (Voronoi paylaşım · duvarsız · yalnız kapanış).
 # Bağlam `kesit_dolgu` girişinde yazılır (tek iş parçacıklı); önbellek anahtarına GİRER.
 # ═══════════════════════════════════════════════════════════════════════════
+# DOLGU-YEREL-1127: parça, sadeleştirmeden önce kanonik biçime getirilir (bkz. `_devlet_hesap`).
+# `DOLGU_KANONIK=0` YALNIZ eşitlik sınavı içindir: kanonik adım kapalıyken yeni kod, eski kodla
+# sadeleştirme öncesinde BİT DÜZEYİNDE aynı geometriyi vermelidir (komşuluk daraltmasının kanıtı).
+KANONIK = os.environ.get("DOLGU_KANONIK", "1") != "0"
 SURTUNME = os.environ.get("MOTOR_DOLGU_SURTUNME", "1") != "0"
 DELIK_KURALI = os.environ.get("MOTOR_DOLGU_DELIK", "1") != "0"
 _CTX = {"izgara": None, "duvar": None, "engel": None, "kara_hazir": None, "kara": None}
@@ -207,12 +211,48 @@ _KURAL = {"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
           "paylasim_adim_km": PAYLASIM_ADIM_KM,
           "paylasim_nokta_tavan": PAYLASIM_NOKTA_TAVAN,
           "surtunme": SURTUNME, "delik": DELIK_KURALI}
+# ── TUZUN KAPSAMI = İŞİN OKUDUĞU KOD (DOLGU-YEREL-1127) ─────────────────────────────────────
+# Eskiden tuz BÜTÜN DOSYANIN özetiydi: dosyaya tek yorum satırı ya da bir ilerleme sayacı eklemek
+# bütün Ⓑ kayıtlarını çöpe atıyordu ⇒ "koşuyu durdur, küçük bir şeyi düzelt, kaldığı yerden sürdür"
+# imkânsızdı. Artık her katmanın tuzu yalnız O KATMANIN OKUDUĞU işlevlerin KAYNAK METNİDİR (dosyadan
+# `ast` ile, evrensel satır sonuyla ⇒ satır sonu biçiminden ve yükleme yolundan bağımsız).
+# ⚠️ Aşağıdaki listelere girmeyen bir işlev hesaba katılırsa (yeni yardımcı yazılırsa) LİSTEYE EKLE;
+#    eklenmezse o işlev değişince eski kayıt bayat kalır. Listede olmayan ad koşuyu başta durdurur.
+_TALEP_ADLAR = ("_km_derece", "_derece", "_km2", "_parcalar", "_temiz", "KaraIndeks",
+                "_deniz_kapanisi", "_talep")
+_DEVLET_ADLAR = ("_yut", "_oz", "_km_derece", "_derece", "_km2", "_parcalar", "_temiz", "KaraIndeks",
+                 "_paylas_surtunme", "_paylas", "_koridor_kirp", "_cins", "_delikler",
+                 "_engel_kuresel_oz", "_engel_yerel_oz", "_ctx_oz", "_yerel_baglam", "_yol_devlet",
+                 "_devlet_hesap", "_delik_talebi", "_kesit_coz", "kesit_dolgu")
+_KAYNAK_PARCA = {}
+
+
+def _kaynak_ozeti(yol, adlar):
+    """`yol`daki Python dosyasının üst düzey `adlar` tanımlarının kaynak metni özeti (sha256)."""
+    parca = _KAYNAK_PARCA.get(yol)
+    if parca is None:
+        import ast as _ast
+        with io.open(yol, "r", encoding="utf-8", newline=None) as f:
+            src = f.read()
+        parca = {}
+        for dugum in _ast.parse(src).body:
+            ad = getattr(dugum, "name", None)
+            if ad:
+                parca[ad] = _ast.get_source_segment(src, dugum)
+        _KAYNAK_PARCA[yol] = parca
+    eksik = [a for a in adlar if a not in parca]
+    if eksik:
+        raise RuntimeError("kaynak özeti: tanım bulunamadı: %r" % eksik)
+    return _hlo.sha256("\n".join(parca[a] for a in adlar).encode("utf-8")).hexdigest()
+
+
+_TALEP_KAYNAK = _kaynak_ozeti(os.path.abspath(__file__), _TALEP_ADLAR)
+_DEVLET_KAYNAK = _kaynak_ozeti(os.path.abspath(__file__), _DEVLET_ADLAR)
 _ONB_TUZ = json.dumps({
-    "surum": KURAL_SURUM,
-    "modul": _hlo.sha256(io.open(os.path.abspath(__file__), "rb").read()).hexdigest(),
-    "kural": _KURAL,
+    "surum": KURAL_SURUM, "kaynak": _DEVLET_KAYNAK, "talep_kaynak": _TALEP_KAYNAK,
+    "kural": _KURAL, "kanonik": KANONIK,
 }, sort_keys=True, ensure_ascii=False)
-_ONB_YOL = os.path.join(os.environ.get("MOTOR_ONBELLEK_DIZIN")
+_ONB_YOL =os.path.join(os.environ.get("MOTOR_ONBELLEK_DIZIN")
                         or os.path.join(KOK, "_motor_onbellek"),
                         "motor_onbellek.sqlite")
 _ONB_ACIK = os.environ.get("MOTOR_ONBELLEK_KAPALI") != "1"
@@ -424,28 +464,8 @@ def _talep(g, kara_hazir, kara, r_km):
 # eklemek bütün kapanışları çöpe atıyordu. Kapanışın okuduğu kod yalnız aşağıdaki işlevlerdir; tuzu da
 # yalnız onların KAYNAK METNİ ve okuduğu dört sabittir. Paylaşım/cins/anahtar kodundaki bir değişiklik
 # artık kapanışlara dokunmaz. (Kaynak metni dosyadan `ast` ile, evrensel satır sonuyla alınır ⇒ satır
-# sonu biçiminden ve modülün nasıl yüklendiğinden bağımsız.)
-_TALEP_ADLAR = ("_km_derece", "_derece", "_km2", "_parcalar", "_temiz", "KaraIndeks",
-                "_deniz_kapanisi", "_talep")
-
-
-def _kaynak_ozeti(yol, adlar):
-    """`yol`daki Python dosyasının üst düzey `adlar` tanımlarının kaynak metni özeti (sha256)."""
-    import ast as _ast
-    with io.open(yol, "r", encoding="utf-8", newline=None) as f:
-        src = f.read()
-    parca = {}
-    for dugum in _ast.parse(src).body:
-        ad = getattr(dugum, "name", None)
-        if ad in adlar:
-            parca[ad] = _ast.get_source_segment(src, dugum)
-    eksik = [a for a in adlar if a not in parca]
-    if eksik:
-        raise RuntimeError("kaynak özeti: tanım bulunamadı: %r" % eksik)
-    return _hlo.sha256("\n".join(parca[a] for a in adlar).encode("utf-8")).hexdigest()
-
-
-_TALEP_KAYNAK = _kaynak_ozeti(os.path.abspath(__file__), _TALEP_ADLAR)
+# sonu biçiminden ve modülün nasıl yüklendiğinden bağımsız.) `_TALEP_ADLAR` ve `_TALEP_KAYNAK`
+# dosyanın başında, `_ONB_TUZ` ile birlikte kurulur.
 _TALEP_TUZ = json.dumps({
     "surum": "talep-1", "kaynak": _TALEP_KAYNAK,
     "kural": {"deniz": DENIZ_KURALI, "deniz_esik_km2": DENIZ_ESIK_KM2,
@@ -737,6 +757,19 @@ def _delikler(g):
     return out
 
 
+def _engel_kuresel_oz(en):
+    """Kesitin BÜTÜN engel noktalarının özeti. `_oz` KULLANILMAZ: o, özeti alınan nesneyi sonsuza
+    dek canlı tutar ve engel her kesitte yeni bir nesnedir (4.000+ kesit ⇒ 4.000+ ölü `MultiPoint`).
+    Tek gözlü ezber: aynı kesit içinde yeniden sorulursa hesaplanmaz."""
+    if en is None:
+        return "-"
+    if _ENGEL_KURESEL[0] is not en:
+        _ENGEL_KURESEL[0] = en
+        _ENGEL_KURESEL[1] = _hlo.sha256(
+            b"BOS" if en.is_empty else shapely.to_wkb(en, output_dimension=2)).hexdigest()
+    return _ENGEL_KURESEL[1]
+
+
 def _engel_yerel_oz(g):
     """DOLGU-YEREL-1127: delik engelinin YALNIZ bu gövdeyi ilgilendiren payının özeti.
 
@@ -775,7 +808,7 @@ def _engel_yerel_oz(g):
         return _hlo.sha256(_np.ascontiguousarray(xy).tobytes()).hexdigest()
     except Exception:
         _yut("engel_yerel:kesisim (küresel özete düştü)")
-        return _oz(en)                  # ölçemedik ⇒ ESKİ (küresel) özet: güvenli taraf
+        return _engel_kuresel_oz(en)    # ölçemedik ⇒ ESKİ (küresel) özet: güvenli taraf
 
 
 def _ctx_oz(kim, adlar, g=None):
@@ -794,8 +827,23 @@ def _ctx_oz(kim, adlar, g=None):
     if g is not None:
         eo = _engel_yerel_oz(g)
     else:
-        eo = _oz(en) if en is not None else "-"
+        eo = _engel_kuresel_oz(en)
     return "ctx|%s|%s|%s" % (iz, du, eo)
+
+
+def _yerel_baglam(kara_oz, r_km):
+    """Gövde özetiyle anahtarlı süreç içi ezberler (bölge · çift yakınlığı · çift kesişimi) ham
+    talebe bağlıdır; ham talep de KARA ve YARIÇAPIN fonksiyonudur. İkisinden biri değişirse (aynı
+    süreçte ikinci bir bant, başka bir kara maskesi) o ezberler BAYATTIR ⇒ boşaltılır. `_TALEP_ONB`
+    de aynı sebeple: anahtarı aralık indeksidir, yarıçapı taşımaz."""
+    bag = (kara_oz, "%.4f" % r_km)
+    if _YEREL_BAGLAM[0] != bag:
+        _YEREL_BAGLAM[0] = bag
+        _BOLGE_ONB.clear()
+        _CIFT_G.clear()
+        _CIFT_T.clear()
+        _TALEP_ONB.clear()
+        del _TALEP_SIRA[:]
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -810,16 +858,19 @@ _DEVLET_ONB = _OD()
 #    `MOTOR_*` değişkenini önbellek tuzuna katar (:655) ⇒ bu düğmelerden biri verilseydi A'nın
 #    bütün önbelleği ıskalardı. Bunlar yalnız hız/görünürlük düğmesidir, sonucu etkilemez.
 _DEVLET_TAVAN = int(os.environ.get("DOLGU_DEVLET_ONB", "6000"))
+_IZ_SN = float(os.environ.get("DOLGU_IZ_SN", "20") or "20")
 ILERLEME = {"devlet_hesap": 0, "devlet_bellek": 0, "devlet_disk": 0,
-            "kapanis_hesap": 0, "kapanis_miras": 0, "kapanis_disk": 0}
+            "kapanis_hesap": 0, "kapanis_miras": 0, "kapanis_disk": 0, "kesit_disk": 0}
 # Gövde başına bir kez kurulan yardımcılar ve ÇİFT bazlı komşuluk ezberi (içerik özetiyle anahtarlı):
 # bir gövdenin ham talebi yalnız o gövdenin fonksiyonudur ⇒ (gövde_i, gövde_j) çiftinin yakınlık ve
 # kesişim cevabı ikisi de değişmedikçe aynıdır. Kesitten kesite çiftlerin çoğu değişmez; gerçek
 # geometri sorgusu yalnız YENİ çift için yapılır.
 _DELIK_ONB = {}                 # gövde özeti → deliklerin (hazırlanmış) birleşimi | None
 _ENGEL_NOKTA = [None, None, None]
+_ENGEL_KURESEL = [None, None]
+_YEREL_BAGLAM = [None]
 _BOLGE_ONB = _OD()              # gövde özeti → bölge (ham ∪ delikler), hazırlanmış
-_BOLGE_TAVAN = 3000
+_BOLGE_TAVAN = 1200             # bir kesitte ~350 gövde canlıdır; `_TALEP_TAVAN` ile aynı mertebe
 _CIFT_G = {}                    # (özet_i, özet_j) → gövde_j bölge_i'ye TEMAS içinde mi
 _CIFT_T = {}                    # (özet_a, özet_b) sıralı → ham_a ∩ ham_b ≠ ∅ mi
 _CIFT_TAVAN = 3000000
@@ -921,6 +972,7 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
             return sorted(ham_var[int(q)] for q in ix if ham_var[int(q)] != i)
 
     parcalar = []
+    anlar = []                  # kesit kaydı parçaları değil, bu anahtarları saklar (bkz. `_kesit_coz`)
     for i in ham_var:
         kim, g = govdeler[i]
         kb = komsu_govde(i)
@@ -935,6 +987,7 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
             "|".join("%s=%s" % (govdeler[j][0], _oz(govdeler[j][1]))
                      for j in _cevre),
             _ctx_oz(kim, [govdeler[j][0] for j in _cevre], g))
+        anlar.append(an)
         deger = _DEVLET_ONB.get(an)
         if deger is not None:
             _DEVLET_ONB.move_to_end(an)
@@ -955,10 +1008,18 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
             SAYAC["duvar_kesilen_km2"] += kes
             continue
 
-        _t0 = time.time()
+        _t0, _c0, _k0 = time.time(), rapor["sn_cekisme"], rapor["sn_cins"]
         ILERLEME["devlet_hesap"] += 1
         ps, eng, km2t, kes = _devlet_hesap(i, kim, g, ham, govdeler, kb, kt,
                                            g_liste, rapor)
+        # YAVAŞ DEVLET SESSİZ KALMAZ (kapanıştaki `[yavas]` satırının eşi): `DOLGU_IZ_SN` saniyeyi aşan
+        # her devlet hesabı adıyla, komşu sayısıyla ve sürenin dökümüyle basılır. Varsayılan 20 sn.
+        if time.time() - _t0 >= _IZ_SN:
+            print("      [yavas] %-28s %.1f sn (devlet: çekişme %.1f · cins %.1f · kalan %.1f) · komşu "
+                  "gövde %d · talep %d · parça %d" % (
+                      kim, time.time() - _t0, rapor["sn_cekisme"] - _c0, rapor["sn_cins"] - _k0,
+                      (time.time() - _t0) - (rapor["sn_cekisme"] - _c0) - (rapor["sn_cins"] - _k0),
+                      len(kb), len(kt), len(ps)), flush=True)
         # KANONİK SIRA: çıkarılan komşu kümesi daraldığı için GEOS'un parça sırası değişebilir;
         # çıktı sırası (dolayısıyla havuz indeksleri) komşu kümesine değil İÇERİĞE bağlı olsun.
         ps.sort(key=lambda d: (d["cins"], d["g"].bounds, shapely.to_wkb(d["g"], output_dimension=2)))
@@ -976,7 +1037,37 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
         parcalar.extend(ps)
         rapor["engellendi"].extend(eng)
         rapor["talep_km2"] += km2t
-    return parcalar
+    return parcalar, anlar
+
+
+def _kesit_coz(deger):
+    """Kesit kaydını (parçalar, rapor) ikilisine açar; açılamazsa None (çağıran yeniden hesaplar).
+
+    Kayıt `("ref-1", [devlet anahtarı…], rapor)` biçimindedir: parçalar `dolgu2_devlet` kayıtlarında
+    ZATEN durur, kesit yalnız onlara işaret eder. Eskiden her kesit bütün parçalarını ikinci kez
+    saklıyordu (ölçüldü, Koşu 40: kayıt başına 0,8–1,2 MB; 4.000+ kesitte ~4 GB mükerrer yazı ve her
+    okumada ~1.600 geometrinin yeniden kurulması). İşaret edilen devlet sonuçları süreç içi ezberde
+    durduğu için art arda kesitler AYNI parça nesnelerini paylaşır.
+    `("butun" yolu eski ikili biçimi yazar; o da aynen döner.)`"""
+    if isinstance(deger, tuple) and len(deger) == 2:
+        return deger
+    if not (isinstance(deger, tuple) and len(deger) == 3 and deger[0] == "ref-1"):
+        return None
+    _et, anlar, rapor = deger
+    parcalar = []
+    for an in anlar:
+        v = _DEVLET_ONB.get(an)
+        if v is not None:
+            _DEVLET_ONB.move_to_end(an)
+        else:
+            var, v = _ONB.oku("dolgu2_devlet", an)
+            if not var:
+                return None
+            _DEVLET_ONB[an] = v
+            while len(_DEVLET_ONB) > _DEVLET_TAVAN:
+                _DEVLET_ONB.popitem(last=False)
+        parcalar.extend(v[0])
+    return parcalar, rapor
 
 
 def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
@@ -1098,7 +1189,8 @@ def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
             # oradan demirler) ve o köşe, çıkarılan komşu kümesinin bileşimine göre değişir — aynı
             # geometri, farklı köşe sırası, ~1 km'lik farklı kırıntı (ölçüldü: 0800 kesiti, silla).
             # Önce KANONİK biçime getirilir ki sonuç yalnız geometriye bağlı olsun.
-            p2 = _temiz(shapely.normalize(p).simplify(SADE_TOL, preserve_topology=True))
+            p2 = _temiz((shapely.normalize(p) if KANONIK else p).simplify(
+                SADE_TOL, preserve_topology=True))
             if p2.is_empty:
                 continue
             c = zorla or _cins(p, g, yakin(p))
@@ -1208,10 +1300,13 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None, izgara=None, du
         "|".join("%s=%s" % (k, _oz(g)) for k, g in govdeler),
         _ctx_oz("", sorted({k for k, _g in govdeler})),
         "|".join("%s=%s" % (k, _oz(v)) for k, v in sorted((duvar or {}).items())))
+    _yerel_baglam(_kara_oz, r_km)
     _var, _deger = _ONB.oku("dolgu2_kesit", _kesit_an)
     if _var:
-        _p, _r = _deger
-        return _p, _r
+        _c = _kesit_coz(_deger)
+        if _c is not None:
+            ILERLEME["kesit_disk"] += 1
+            return _c
 
     # 🔴 `a_hep` (bütün dünyanın o günkü sahipli toprağı) ARTIK TEK PARÇA
     #    OLARAK KULLANILMIYOR — ve sebebi ölçüldü, tahmin edilmedi:
@@ -1305,8 +1400,8 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None, izgara=None, du
     # "devlet" (varsayılan): birim TEK DEVLET + 1 SIÇRAMA komşuluğu.
     # "butun": eski tek parça hesap — BİT BİT AYNILIK SINAVININ karşı tarafı.
     if YOL == "devlet":
-        parcalar = _yol_devlet(govdeler, ham, rapor, _kara_oz, r_km,
-                               _g_agac, _g_liste)
+        parcalar, _anlar = _yol_devlet(govdeler, ham, rapor, _kara_oz, r_km,
+                                       _g_agac, _g_liste)
         # MOTOR-YAMA-5GUN-B-1118 KABUL SAYACI: duvar uygulandıktan sonra hâlâ duvarın içinde kalan
         # dolgu. Sıfır olmalı; sıfır değilse parça ADIYLA basılır (sessiz geçmez). Bu sayaç `rapor`da
         # taşınır ⇒ önbellekten gelen kesitte de sayılır.
@@ -1326,7 +1421,7 @@ def kesit_dolgu(govdeler, kara=None, kara_hazir=None, r_km=None, izgara=None, du
                     rapor["duvar_gecen_km2"] += ic
                     print("      [DUVAR AŞILDI] %s %s %.1f km²" % (pc["kim"], pc["cins"], ic),
                           flush=True)
-        _ONB.yaz("dolgu2_kesit", _kesit_an, (parcalar, rapor))
+        _ONB.yaz("dolgu2_kesit", _kesit_an, ("ref-1", _anlar, rapor))
         return parcalar, rapor
 
     for _ix, (kim, g) in enumerate(govdeler):
@@ -1537,21 +1632,59 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0, ufuk_gun=None,
     Döner: (kayit_sayisi, dosya_boyutu, cins_sayac, sure)
     """
     t0 = time.time()
-    _ug = UFUK_GUN if ufuk_gun is None else float(ufuk_gun)
-    _r_km = (YARICAP_KM if ufuk_gun is None else _ug * KM_GUN / 2.0)
-    kara_hazir = KaraIndeks(kara) if kara is not None else None
     tarihler = sorted({a[0] for a in araliklar}, key=_gk)
     if kesit_sinir:
         tarihler = tarihler[:kesit_sinir]
+    if os.environ.get("DOLGU_AYRI_SUREC") == "1":
+        # ── AYRI SÜREÇ (DOLGU-YEREL-1127; tasarım: oturumlar/TASARIM-B-DOLGU-AYRI-SUREC-1125.md) ──
+        # Koşu 40'ta Ⓑ, motorun 16 GB'lık belleği içinde 183 saat koştu ve A'nın çıktıları
+        # (`donemler.js`, `petek_govde.js`) Ⓑ'den SONRA yazıldığı için hiç yazılamadı. Burada Ⓑ'nin
+        # okuduğu her şey (gövdeler · kara · kesit bağlamı) diske bir ANLIK GÖRÜNTÜ olarak yazılır ve
+        # işlev hemen döner: motor A çıktılarını yazıp biter, belleğini iade eder. Dolgu sonra küçük,
+        # durdurulup sürdürülebilir bir süreçte hesaplanır: `py arac/dolgu.py --anlik <dizin>`.
+        # Hata olursa İSTİSNA yükselir (süreç içi hesaba DÖNÜLMEZ): çağıran yakalar, A yazılır.
+        dizin = os.environ.get("DOLGU_ANLIK_DIZIN") or os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(cikti))), "_dolgu_anlik")
+        boy = anlik_yaz(dizin, araliklar, kara, cikti, tarihler, ufuk_gun,
+                        izgara_fn, duvar_fn, engel_fn)
+        print("  Ⓑ dolgu: AYRI SÜREÇ — anlık görüntü yazıldı: %s (%.0f MB, %d aralık, %d kesit, "
+              "%.0f sn). `%s` BU SÜREÇTE YAZILMADI; hesap: py arac/dolgu.py --anlik \"%s\"" % (
+                  dizin, boy / 2.0 ** 20, len(araliklar), len(tarihler), time.time() - t0,
+                  os.path.basename(cikti), dizin), flush=True)
+        return 0, 0, {c: 0 for c in CINSLER}, time.time() - t0
+
+    def _baglam(n, a):
+        return (izgara_fn(a) if izgara_fn else None, duvar_fn(a) if duvar_fn else None,
+                engel_fn(a) if engel_fn else None)
+    return _kesit_dongusu(araliklar, kara, cikti, tarihler, ufuk_gun, _baglam, ilerleme, t0)
+
+
+def _kesit_dongusu(araliklar, kara, cikti, tarihler, ufuk_gun, baglam_fn, ilerleme=None, t0=None):
+    """Kesit kesit dolgu + `cikti` yazımı. `baglam_fn(n, a)` → (izgara, duvar, engel).
+    Hem süreç içi yol (`kosudan`) hem ayrı süreç (`anlik_kos`) BU döngüyü koşturur."""
+    t0 = time.time() if t0 is None else t0
+    _ug = UFUK_GUN if ufuk_gun is None else float(ufuk_gun)
+    _r_km = (YARICAP_KM if ufuk_gun is None else _ug * KM_GUN / 2.0)
+    kara_hazir = KaraIndeks(kara) if kara is not None else None
     havuz, kayitlar = Havuz(), []
     cins_sayac = {c: 0 for c in CINSLER}
     acik = {}
+    _ar_gun = [(_gk(f), _gk(t)) for f, t, _k, _g in araliklar]
+    # Parça → havuz indeksleri ezberi. Art arda kesitlerde parçaların ~%99'u AYNI nesnedir (devlet
+    # sonucu süreç içi ezberden gelir); eskiden her kesitte her parçanın bütün köşeleri yeniden
+    # yuvarlanıp JSON metnine çevriliyordu (4.000+ kesit × ~1.600 parça).
+    _pix = {}
     # DOLGU-YEREL-1127 — SAYAÇSIZ AŞAMA OLMAZ. Koşu 40'ta Ⓑ 183 saat koştu ve kaçıncı kesitte olduğu,
     # ne kadar kaldığı HİÇBİR YERDE yazmıyordu; "takıldı mı, yavaş mı" 6 gün ölçülemedi. Artık en geç
-    # `MOTOR_DOLGU_ILERLEME_SN` (300) saniyede bir satır basılır: kesit n/N, tarih, geçen süre, son
-    # dilimin hızıyla tahminî kalan ve devlet hesabının nereden geldiği (hesap / bellek / disk).
+    # `DOLGU_ILERLEME_SN` (300) saniyede bir satır basılır: kesit n/N, tarih, geçen süre, son
+    # dilimin hızıyla tahminî kalan, hesabın nereden geldiği (hesap / bellek / disk) ve bellek.
     _il_sn = float(os.environ.get("DOLGU_ILERLEME_SN", "300") or "300")
     _il_son, _il_n, _il_h = time.time(), 0, 0
+    try:
+        import psutil as _ps
+        _surec = _ps.Process()
+    except Exception:
+        _surec = None
     print("  Ⓑ dolgu: %d kesit (%s … %s) · yarıçap %.1f km" % (
         len(tarihler), tarihler[0] if tarihler else "-", tarihler[-1] if tarihler else "-", _r_km),
         flush=True)
@@ -1559,29 +1692,39 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0, ufuk_gun=None,
         if time.time() - _il_son >= _il_sn:
             _simdi = time.time()
             _hiz = (_simdi - _il_son) / max(1, n - 1 - _il_n)          # sn/kesit, son dilim
+            try:
+                _bel = " · bellek %.1f GB" % (_surec.memory_info().rss / 2.0 ** 30) if _surec else ""
+            except Exception:
+                _bel = ""
             print("    Ⓑ kesit %d/%d (%s) · geçen %.1f sa · son dilim %.1f sn/kesit · tahminî kalan "
                   "%.1f sa · devlet: hesap %d (son dilimde %d) / bellekten %d / diskten %d · "
-                  "kapanış: hesap %d / miras %d / diskten %d" % (
+                  "kapanış: hesap %d / miras %d / diskten %d · hazır kesit %d · kayıt %d%s" % (
                       n - 1, len(tarihler), a, (_simdi - t0) / 3600.0, _hiz,
                       _hiz * (len(tarihler) - n + 1) / 3600.0, ILERLEME["devlet_hesap"],
                       ILERLEME["devlet_hesap"] - _il_h, ILERLEME["devlet_bellek"],
                       ILERLEME["devlet_disk"], ILERLEME["kapanis_hesap"],
-                      ILERLEME["kapanis_miras"], ILERLEME["kapanis_disk"]), flush=True)
+                      ILERLEME["kapanis_miras"], ILERLEME["kapanis_disk"],
+                      ILERLEME["kesit_disk"], len(kayitlar), _bel), flush=True)
             _il_son, _il_n, _il_h = _simdi, n - 1, ILERLEME["devlet_hesap"]
         # Önbellek anahtarı = aralık indeksi (bkz. `_TALEP_ONB` başlığı).
-        govdeler = [(kim, g, _ai) for _ai, (f, t, kim, g)
-                    in enumerate(araliklar) if _gk(f) <= _gk(a) < _gk(t)]
+        _ag = _gk(a)
+        govdeler = [(araliklar[_ai][2], araliklar[_ai][3], _ai)
+                    for _ai, (_gf, _gt) in enumerate(_ar_gun) if _gf <= _ag < _gt]
+        _izg, _dv, _en = baglam_fn(n, a)
         parcalar, _rapor = kesit_dolgu(
-            govdeler, kara, kara_hazir, r_km=_r_km,
-            izgara=izgara_fn(a) if izgara_fn else None,
-            duvar=duvar_fn(a) if duvar_fn else None,
-            engel=engel_fn(a) if engel_fn else None)
+            govdeler, kara, kara_hazir, r_km=_r_km, izgara=_izg, duvar=_dv, engel=_en)
         SAYAC["duvar_gecen_n"] += _rapor.get("duvar_gecen_n", 0)
         SAYAC["duvar_gecen_km2"] += _rapor.get("duvar_gecen_km2", 0.0)
         bitis = tarihler[n] if n < len(tarihler) else "9999-12-31"
-        yeni = [{"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
-                 "p": [havuz.ekle(x) for x in _parcalar(pc["g"])]}
-                for pc in parcalar]
+        yeni = []
+        for pc in parcalar:
+            _v = _pix.get(id(pc))
+            if _v is None or _v[0] is not pc:
+                if len(_pix) > 300000:
+                    _pix.clear()
+                _v = (pc, [havuz.ekle(x) for x in _parcalar(pc["g"])])
+                _pix[id(pc)] = _v
+            yeni.append({"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"], "p": _v[1]})
         _birlestir(kayitlar, acik, yeni, a, bitis, cins_sayac)
         if ilerleme is not None:
             ilerleme(n, len(tarihler), a, len(parcalar))
@@ -1590,6 +1733,147 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0, ufuk_gun=None,
                       "esik_km2": ESIK_KM2,
                       "kesit": len(tarihler)})
     return len(kayitlar), boy, cins_sayac, time.time() - t0
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ⑥b ANLIK GÖRÜNTÜ — Ⓑ'nin motordan AYRI süreçte koşması (DOLGU-YEREL-1127)
+# ═══════════════════════════════════════════════════════════════════════════
+# İlke (`KOSU-ANAYASASI.md`): "hiçbir çıktı sonraki aşamanın rehinesi olmaz" · "bitirdiğini bırak".
+# Görüntü, `kesit_dolgu`nun okuduğu HER ŞEYİ taşır; ayrı süreç motorun hiçbir değişkenine erişmez:
+#   govde.pkl   başlık (sürüm · kural · kara · tarihler · çıktı yolu) + aralıklar (f, t, kim, gövde)
+#   izgara.npy  sürtünmeli paylaşım ızgarası (bütün kesitlerde AYNI dizi)
+#   kesit.pkl   kesit sırasıyla: yerleşim→devlet haritası (ilk kesit tam, sonrakiler FARK) ·
+#               o günün duvarı (aynı duvar bir kez yazılır) · o günün engel noktaları
+#   meta.pkl    ızgara sabitleri · TAMAM işareti (yarım görüntü hesaplanmaz)
+# Geometriler pickle ile (WKB) gider ⇒ köşe köşe aynı; önbellek anahtarları da aynı çıkar ve iki yol
+# AYNI kayıtları paylaşır. Eşitlik sınavı: `denetim/KOSU-SORUSTURMA-1127/anlik_esitlik.py`.
+ANLIK_SURUM = "dolgu-anlik-1"
+_YOK = object()
+
+
+def anlik_yaz(dizin, araliklar, kara, cikti, tarihler, ufuk_gun, izgara_fn, duvar_fn, engel_fn):
+    """Ⓑ'nin bütün girdisini `dizin`e yazar. Döner: toplam bayt. Hata ⇒ istisna (TAMAM yazılmaz)."""
+    import pickle
+    import numpy as np
+    os.makedirs(dizin, exist_ok=True)
+    tamam = os.path.join(dizin, "TAMAM")
+    if os.path.exists(tamam):
+        os.remove(tamam)
+    with open(os.path.join(dizin, "govde.pkl"), "wb") as f:
+        pickle.dump({"surum": ANLIK_SURUM, "n": len(araliklar), "cikti": os.path.abspath(cikti),
+                     "ufuk_gun": ufuk_gun, "tarihler": list(tarihler), "kural": _KURAL,
+                     "kara": kara}, f, protocol=4)
+        for ar in araliklar:
+            pickle.dump(tuple(ar), f, protocol=4)
+    sabit, sabit_sahip, onceki = None, None, None
+    duvar_ix, duvar_tut = {}, []                    # `duvar_tut` nesneleri canlı tutar ⇒ id() kararlı
+    _il = time.time()
+    with open(os.path.join(dizin, "kesit.pkl"), "wb") as f:
+        for n, a in enumerate(tarihler, 1):
+            izg = izgara_fn(a) if izgara_fn else None
+            dv = duvar_fn(a) if duvar_fn else None
+            en = engel_fn(a) if engel_fn else None
+            ip = None
+            if izg is not None:
+                s = (izg["x0"], izg["y0"], izg["adim"], izg.get("grid_oz", ""))
+                if sabit is None:
+                    sabit, sabit_sahip = s, izg["sahip"]
+                    np.save(os.path.join(dizin, "izgara.npy"), sabit_sahip)
+                elif s != sabit or izg["sahip"] is not sabit_sahip:
+                    raise RuntimeError("ızgara kesitten kesite değişiyor (%s) — görüntü bunu taşımaz" % a)
+                kim = izg["kim"]
+                if onceki is None:
+                    ip = ("tam", dict(kim), izg.get("devlet_oz"))
+                else:
+                    ip = ("fark", {j: d for j, d in kim.items() if onceki.get(j, _YOK) != d},
+                          [j for j in onceki if j not in kim], izg.get("devlet_oz"))
+                onceki = kim
+            elif sabit is not None:
+                raise RuntimeError("ızgara %s kesitinde yok, öncekilerde vardı" % a)
+            di = None
+            if dv is not None:
+                di = duvar_ix.get(id(dv))
+                if di is None:
+                    di = len(duvar_tut)
+                    duvar_ix[id(dv)] = di
+                    duvar_tut.append(dv)
+                    pickle.dump(("D", di, dv), f, protocol=4)
+            pickle.dump(("K", a, ip, di, en), f, protocol=4)
+            if time.time() - _il >= 300.0:
+                _il = time.time()
+                print("    Ⓑ anlık görüntü: kesit bağlamı %d/%d (%s)" % (n, len(tarihler), a), flush=True)
+    with open(os.path.join(dizin, "meta.pkl"), "wb") as f:
+        pickle.dump({"sabit": sabit, "kesit": len(tarihler), "duvar": len(duvar_tut)}, f, protocol=4)
+    with io.open(tamam, "w", encoding="utf-8") as f:
+        f.write("%s\n%d aralık · %d kesit\n" % (ANLIK_SURUM, len(araliklar), len(tarihler)))
+    return sum(os.path.getsize(os.path.join(dizin, x)) for x in os.listdir(dizin))
+
+
+def anlik_kos(dizin, cikti=None, kesit_sinir=0):
+    """Anlık görüntüden dolguyu hesaplar ve `cikti`yi (verilmezse görüntüdeki yolu) yazar."""
+    import pickle
+    import numpy as np
+    t0 = time.time()
+    if not os.path.exists(os.path.join(dizin, "TAMAM")):
+        raise SystemExit("anlık görüntü TAMAMLANMAMIŞ (TAMAM yok): %s" % dizin)
+    with open(os.path.join(dizin, "govde.pkl"), "rb") as f:
+        bas = pickle.load(f)
+        if bas.get("surum") != ANLIK_SURUM:
+            raise SystemExit("anlık görüntü sürümü %r, beklenen %r" % (bas.get("surum"), ANLIK_SURUM))
+        if bas["kural"] != _KURAL:
+            _f = sorted(k for k in set(bas["kural"]) | set(_KURAL) if bas["kural"].get(k) != _KURAL.get(k))
+            raise SystemExit("ORTAM FARKLI — görüntüyü yazan süreçle bu sürecin dolgu ayarları aynı değil: "
+                             + ", ".join("%s görüntü=%r burada=%r" % (k, bas["kural"].get(k), _KURAL.get(k))
+                                         for k in _f))
+        araliklar = [pickle.load(f) for _ in range(bas["n"])]
+    with open(os.path.join(dizin, "meta.pkl"), "rb") as f:
+        meta = pickle.load(f)
+    sahip = np.load(os.path.join(dizin, "izgara.npy")) if meta["sabit"] is not None else None
+    tarihler = bas["tarihler"][:kesit_sinir] if kesit_sinir else bas["tarihler"]
+    cikti = cikti or bas["cikti"]
+    print("  Ⓑ dolgu (ayrı süreç): %d aralık · %d kesit · görüntü %s (%.0f sn'de okundu) → %s" % (
+        len(araliklar), len(tarihler), dizin, time.time() - t0, cikti), flush=True)
+    kf = open(os.path.join(dizin, "kesit.pkl"), "rb")
+    durum = {"kim": None, "duvar": {}}
+
+    def _baglam(n, a):
+        while True:
+            r = pickle.load(kf)
+            if r[0] != "D":
+                break
+            durum["duvar"][r[1]] = r[2]
+        _et, a2, ip, di, en = r
+        if a2 != a:
+            raise RuntimeError("kesit sırası uyuşmuyor: görüntü %s, döngü %s" % (a2, a))
+        izg = None
+        if ip is not None:
+            if ip[0] == "tam":
+                durum["kim"] = dict(ip[1])
+            else:
+                durum["kim"].update(ip[1])
+                for j in ip[2]:
+                    durum["kim"].pop(j, None)
+            x0, y0, ad, goz = meta["sabit"]
+            izg = {"sahip": sahip, "x0": x0, "y0": y0, "adim": ad, "kim": durum["kim"],
+                   "grid_oz": goz, "devlet_oz": ip[-1]}
+        return izg, (durum["duvar"][di] if di is not None else None), en
+    try:
+        sonuc = _kesit_dongusu(araliklar, bas["kara"], cikti, tarihler, bas["ufuk_gun"], _baglam, None, t0)
+    finally:
+        kf.close()
+    _n, _boy, _cins, _sn = sonuc
+    print("  Ⓑ dolgu → %s (%d KB, %d kayıt, %.0f sn) · %s" % (
+        cikti, _boy // 1024, _n, _sn, " · ".join("%s %d" % (c, _cins.get(c, 0)) for c in CINSLER)))
+    print("  Ⓑ dolgu DUVAR: aşan %d parça / %.0f km² (kabul: 0) · duvarın kestiği %.0f km² · paylaşım: "
+          "sürtünmeli %d / Voronoi'ye düşen %d · devlet-içi delik: %d devlet-kesit / %.0f km² (engelli "
+          "delik %d)  [ezberden gelen hesaplarda son üçü sayılmaz]" % (
+              SAYAC["duvar_gecen_n"], SAYAC["duvar_gecen_km2"], SAYAC["duvar_kesilen_km2"],
+              SAYAC["surtunme"], SAYAC["voronoi"], SAYAC["delik_n"], SAYAC["delik_km2"],
+              SAYAC["delik_engelli_n"]))
+    print("  Ⓑ dolgu SESSİZ YUTMA: " + (", ".join("%s=%s" % kv for kv in sorted(YUTMA.items()))
+                                        if YUTMA else "0 (hiçbiri tetiklenmedi)"))
+    print("  Ⓑ dolgu sayaçları: " + " · ".join("%s %d" % kv for kv in sorted(ILERLEME.items())), flush=True)
+    return sonuc
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -1846,4 +2130,17 @@ def _ana():
 
 
 if __name__ == "__main__":
-    _ana()
+    if "--anlik" in sys.argv:
+        import argparse
+        try:
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:
+            pass
+        _ap = argparse.ArgumentParser(description="Ⓑ dolguyu motorun yazdığı anlık görüntüden hesaplar")
+        _ap.add_argument("--anlik", required=True, help="anlık görüntü dizini (`kosudan` yazar)")
+        _ap.add_argument("--cikti", default="", help="dolgu.js yolu (boşsa görüntüdeki yol)")
+        _ap.add_argument("--kesit", type=int, default=0, help="yalnız ilk N kesit (sınama)")
+        _a = _ap.parse_args()
+        anlik_kos(_a.anlik, _a.cikti or None, _a.kesit)
+    else:
+        _ana()

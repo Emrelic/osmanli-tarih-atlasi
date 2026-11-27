@@ -25,6 +25,10 @@ os.environ["MOTOR_ONBELLEK_KAPALI"] = "1"
 os.environ["MOTOR_DOLGU_UFUK_GUN"] = "10"
 os.environ["MOTOR_ONBELLEK_DIZIN"] = pkl
 os.environ.pop("MOTOR_DOLGU_IZ", None)
+if "--kanonik0" in sys.argv:     # kanonik adım KAPALI: komşuluk daraltmasının TEK BAŞINA etkisi ölçülür
+    os.environ["DOLGU_KANONIK"] = "0"
+else:
+    os.environ.pop("DOLGU_KANONIK", None)
 if "--sade0" in sys.argv:        # sadeleştirme KAPALI: iki kodun sadeleştirme ÖNCESİ geometrisi kıyaslanır
     os.environ["MOTOR_DOLGU_SADE"] = "0"
 else:
@@ -43,7 +47,7 @@ eski = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(eski)
 TOL = 1e-9                                  # derece² (~1e-5 km²)
 print("yeni:", yeni.__file__, yeni.KURAL_SURUM, "· eski:", eski.__file__, eski.KURAL_SURUM,
-      "· SADE_TOL yeni/eski:", yeni.SADE_TOL, eski.SADE_TOL)
+      "· SADE_TOL yeni/eski:", yeni.SADE_TOL, eski.SADE_TOL, "· kanonik:", yeni.KANONIK)
 y = yeni._js_oku(yol, ["DEVLET_HARITA", "DEVLET_PARCALAR", "DEVLET_PARCA_HALKA"])
 kara = yeni._kara_yukle()
 kh_y, kh_e = yeni.KaraIndeks(kara), eski.KaraIndeks(kara)
