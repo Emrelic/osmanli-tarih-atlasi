@@ -164,3 +164,21 @@ Geçen 2 sa 04 dk. Ön aşamalar 1 sa 41 dk'da bitti (Koşu 40: 2 sa 11 dk); var
   oraya varırsa koşu 19:00'a kadar askıda kalır. Eşik eczane kuralıdır, gevşetilmez.
 - **Karar:** sürdür.
 
+**06:43 (nöbet)** Süreç canlı (PID 2340, Normal öncelik, 1,00 çekirdek), `motor.err` 0 bayt, askı yok. Geçen
+4 sa 37 dk; gövde aşaması 2 sa 56 dk, hâlâ ingiltere: gün 714/1317 (1723).
+- **İngiltere hızı oturdu [ÖLÇÜLDÜ]:** 04:40 → 06:40 arası 411 → 714 gün ⇒ gün başına 23,8 sn (daha fazla
+  yavaşlamadı). Kalan 603 gün ≈ 4 saat ⇒ askı olmazsa ingiltere ~10:40'ta biter [TAHMİN]. Devam dizininde pkl
+  hâlâ 1.927 (ingiltere bitince 1.928 olmalı; bakılacak).
+- **Önbellek:** hâlâ tek yeni satır yok (466.816) ⇒ ıska yok.
+- **Bellek [ÖLÇÜLDÜ]:** özel 11,7 GB (tepe) · çalışma 9,6 GB · boş RAM 4,5 GB (en az) · boş commit 34,3 GB.
+  `_VARLIK_ONBELLEK` 379 epok; 06:16'da 326 epok · 1.616.017 geometri (1.614.869'u paylaşılmıyor) · 73,8 milyon
+  köşe ⇒ epok başına ~226 bin köşe. 126 → 379 epokta özel +3,0 GB ⇒ epok başına ~11,8 MB (04:43'teki 8 MB
+  tahminimden yüksek; geç epoklar daha köşeli). Özel belleğin 11,7 GB'ının en az ~4 GB'ı bu yapı.
+- **Gözlem:** 05:01–06:01 arası çalışma kümesi 8,2 → 3,4 GB'a indi (Windows soğuk sayfaları kırptı; özel bellek
+  büyümeye devam etti), 06:06'da 8,7 GB'a geri döndü. Yani eski epokların sayfaları soğuk ama bir şey (ÖLÇÜLMEDİ;
+  çöp toplayıcının tam turu olabilir) hepsini yeniden dokunuyor.
+- **09:00 beklentisi:** boş RAM saatte ~1 GB düşüyor ⇒ 09:00'da 2,5 GB eşiğinin altında ya da sınırında
+  olacak; nöbetçi büyük olasılıkla mesai başında askıya alır ve 19:00'da sürdürür (ingiltere'nin bitmesine
+  ~1,5 saat kala). Eczane kuralı; dokunulmaz. Kayıp ≤ 10 saat; motor son tarihi 30.11 08:00.
+- **Karar:** sürdür.
+
