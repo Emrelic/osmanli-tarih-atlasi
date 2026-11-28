@@ -204,3 +204,14 @@ Geçen 6 sa 37 dk; gövde aşaması 4 sa 56 dk, hâlâ ingiltere: gün 1094/1317
   sınavı; 09:04'te ayrıca bakılacak.
 - **Karar:** sürdür.
 
+**09:04 (askı denetimi)** ASKI YOLU ÇALIŞTI [ÖLÇÜLDÜ]: nöbet günlüğü "09:00:08 öncelik PID 2340 → IDLE",
+"09:01:08 ASKIYA ALINDI (mesai): çalışma kümesi 13.7 GB · boş RAM 1.4 GB". PID 2340: 20 sn'de işlemci artışı
+0,0 sn, 18 iş parçacığının 18'i Suspended, öncelik Idle; nöbetçi PID 8588 canlı; `motor.err` 0 bayt. Askı
+anında ingiltere gün 1192/1317 (1921) idi (son kalp 09:00:51); özel 16,3 GB.
+- **Yaptığım tek müdahale:** askı belleği geri vermiyor (çalışma kümesi 13,7 GB yerinde, boş RAM 1,46 GB).
+  Eczane mesaisi sıkışmasın diye askıdaki kendi sürecimin çalışma kümesini boşalttım (`EmptyWorkingSet`,
+  09:04:40): çalışma kümesi 13,68 → 0,02 GB, **boş RAM 1,46 → 9,18 GB**; özel bellek 16,35 GB sayfa
+  dosyasında duruyor. Bedeli: 19:00'da sürdürülünce sayfalar diskten geri okunacak (süre ölçülecek).
+- **Nöbetçiye not (sonraki sürüm):** askıya alınca çalışma kümesini de boşaltsın; bugün elle yapıldı.
+- 19:00'da sürdürme ve ingiltere'nin bitişi (kalan 125 gün ≈ 40 dk) 20:43 nöbetinde doğrulanacak.
+
