@@ -219,3 +219,7 @@ anında ingiltere gün 1192/1317 (1921) idi (son kalp 09:00:51); özel 16,3 GB.
 
 - Değişiklik yok: PID 2340 ASKIDA (18/18 iş parçacığı, öncelik Idle, işlemci 24.859 sn, 09:04'ten beri artış yok), özel 16,35 GB, çalışma kümesi 0,00 GB; nöbetçi PID 8588 canlı (5 dk'da bir satır). Boş RAM 8,6 GB, boş commit 22,8 GB (nöbetçinin kendi sayacı 36,8 GB diyor; iki sayaç farklı şeyi ölçüyor, eşik nöbetçininkidir). Son kalp 09:00:51 ingiltere gün 1192/1317. `motor.err` 0 bayt. [ÖLÇÜLDÜ, HAVVA, C:\atlas-olcum-1128]
 
+## 28.11 12:43 nöbeti
+
+- Değişiklik yok: PID 2340 ASKIDA (18/18, Idle, işlemci 24.859 sn sabit), özel 16,35 GB, çalışma kümesi 0,00 GB; nöbetçi PID 8588 canlı. Boş RAM 9,0 GB. `motor.err` 0 bayt. [ÖLÇÜLDÜ]
+
