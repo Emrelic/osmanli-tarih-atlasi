@@ -103,4 +103,47 @@ değilse not et ve sonra düzelt; karar oturumda. Her satır bir nöbet anıdır
   kesimi + tavan 4 dk 51 sn · petekler ızgaradan 2 dk 14 sn · iki A/B ölçüm Dijkstra'sı toplam 3 dk 52 sn
   (üretime katkısız). Koşu 40'ta aynı ön aşamalar ~2 sa 06 dk sürmüştü (iki süreç, 4'er iş parçacığı,
   mesai içi düşük öncelik); bu koşuda petek aşamalarının sonuna 30 dakikada gelindi.
+- **02:43 (nöbet)** Süreç canlı (PID 2340). Aşama: varlık epokları, kuşatılmışlık ön geçişi (7 dk 34 sn;
+  Koşu 40'ta bu aşama 1 sa 32 dk idi). Özel 2,9 GB · çalışma 2,4 GB · boş RAM 10,0 GB · 0,98 çekirdek.
+  Hata yok, askı yok. Henüz gövde aşamasına gelinmedi (DEVAM satırı yok). Değişiklik yok; sürdür.
+
+**04:10 (Emre'nin sorusu üzerine ara denetim)** Süreç canlı (PID 2340; 20 sn'de 20 işlemci sn = 1,0 çekirdek).
+Geçen 2 sa 04 dk. Ön aşamalar 1 sa 41 dk'da bitti (Koşu 40: 2 sa 11 dk); varlık epokları 1 sa 08 dk
+(Koşu 40: 1 sa 32 dk). 03:46:46'da "Yabancı devlet gövdeleri" başladı.
+
+- **③ DEVAM DOĞRULANDI:** "♻️ DEVAM … diskte HAZIR devlet 1927/2274"; ilk 1.210 devlet 1 dk 09 sn'de geçildi,
+  iş ağırlığının %48'i hazır sayıldı. Kalan 347 devlet hesaplanıyor; ilki ingiltere (1211/2274).
+- **İngiltere hızı [ÖLÇÜLDÜ, kalp atışlarından]:** gün 235 → 257 → 278 → 301 → 317 (1.317 günden), 5'er dk
+  arayla: 22 · 21 · 23 · 16 gün / 5 dk ⇒ gün başına 13–20 sn. Kalan 1.000 gün bu hızla 4–6 saat [TAHMİN;
+  imparatorluk büyüdükçe yavaşlaması beklenir].
+- **YAKALANAN İSRAF (önbellek isabeti işi kısaltmıyor) [ÖLÇÜLDÜ]:** `C:\atlas-onbellek\motor_onbellek.sqlite`
+  salt okunarak bakıldı: en büyük satır numarası 466.816, son yazılan satır 27.11 13:41:58 (Koşu 40'ın durduğu
+  an). Yani bu koşu 2 saatte önbelleğe TEK yeni satır yazmadı ⇒ ıska yok, bütün okumalar isabet. Buna rağmen
+  ingiltere'nin bir günü 13–20 sn. Sebep [KOD, `uret_petek.py:8683-8765`]: önbellek yalnız
+  `_yabanci_govde_hesap`ı kısaltır; anahtarı kurmak için `petek_epok(a)` yine hesaplanır, isabetten sonra
+  `_komsu_toprak_cikar` ve `_sinir_kisit_uygula` her gün yeniden koşar, bunların hiçbiri önbellekte değil.
+  Aynı desen varlık epoklarında: `kusat` katmanı tam isabet, aşama yine 1 sa 08 dk. Koşu içinde DÜZELTİLEMEZ
+  (`uret_petek.py` tuzdur; dokunmak 12 GB önbelleği boşa çıkarır). Sonraki tam inşa listesine: (a) anahtar
+  `petek_epok`un girdisinden kurulsun, çıktısından değil; (b) komşu çıkarma + sınır kısıtı sonrası gövde de
+  önbelleğe girsin; (c) DEVAM pkl'i her devlet bitince yazılsın (Koşu 40 gövde aşamasını bitirdiği hâlde 347 devletin
+  pkl'i yok; en yeni pkl 19.11 17:37. Neden yazılmadığı ÖLÇÜLMEDİ; çıkarımım: havuzun hesapladığı
+  devletler pkl'e düşmüyor. O yüzden şimdi yeniden yürünüyor).
+- **Bellek:** gövde aşaması başlarken 5 dakikada 2,8 → 7,7 GB (1.927 pkl = diskte 1,11 GB, bellekte ~5 GB;
+  DEV_HALKA 45.636). Şimdi özel 8,1 · çalışma 7,6 · boş RAM en az 7,8 GB · boş commit 37,6 GB. Koşu 40'ta bu
+  aşamanın tepesi 16,6 GB idi. **Risk:** bugün Cumartesi, 09–19 mesai; çalışma kümesi 16 GB'ı aşarsa nöbetçi
+  19:00'a kadar askıya alır (10 saat kayıp). 09:00 nöbetinde bakılacak.
+- **İşlemci:** baştan beri 0,99 çekirdek (8 mantıksal işlemcinin %12'si); 5 dk pencerede en düşük 0,94, en
+  yüksek 1,02. Tek iş parçacığı kasıtlı (bellek ölçümü); 7 işlemci boş duruyor.
+- **Uyarılar (Koşu 40 günlüğüyle sayıldı, BİREBİR AYNI ⇒ bu koşuya özgü yeni hata yok):** UYARI 1.347
+  (boya 1.170 · kademe 90 · renkler.py beyan edilmemiş paylaşım 60 · örtü 26 · 1 başlık) · BOZUK KENAR 385 ·
+  "✗ BEKLENMEDİK — İNCELE" 875 · `motor.err` 0 bayt. Gürültü olarak not: epok tablosundaki ~990 satırın
+  875'i "beklenmedik" damgalı ⇒ `denetim/EPOK-ONGORU.md` bayat, damga hiçbir şey söylemiyor (ya öngörü
+  yenilenmeli ya denetim kalkmalı). Veri borcu olarak not: iki antlaşma hattı "TERS YAKA ŞÜPHESİ" ile
+  UYGULANMADI (`d1918-fr-de-isgal`, `d1920-hu-ro-fiili`); 26 yer hücresiz kaldı (içinde bölge adları: Trakya,
+  Endülüs, Mısır, İfrîkıye, Cibâl); 5 ada tohumu ızgarada yer bulamadı.
+- **Yapılmadan geçen ölçüm işi:** iki A/B ölçüm Dijkstra'sı (3 dk 52 sn) ve ada kuralı (9 dk 25 sn) bilinen
+  kalemler; değişmedi.
+- **Ne kadarı bitti [TAHMİN]:** motor (A) kısmı için Koşu 40 süreleriyle ~%6–10 (gövde 15–30 sa + dönemler
+  ~1 sa + seyreltme ~16 dk + çıktı yazımı ölçülmedi); Ⓑ ayrı süreç ondan sonra, 2–6 gün (ölçülmedi).
+- **Karar:** sürdür. Durdurmayı haklı çıkaran hata yok; görülen israf tuz dosyasında, koşu içinde giderilemez.
 
