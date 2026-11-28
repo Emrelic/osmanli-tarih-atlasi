@@ -182,3 +182,25 @@ Geçen 2 sa 04 dk. Ön aşamalar 1 sa 41 dk'da bitti (Koşu 40: 2 sa 11 dk); var
   ~1,5 saat kala). Eczane kuralı; dokunulmaz. Kayıp ≤ 10 saat; motor son tarihi 30.11 08:00.
 - **Karar:** sürdür.
 
+**08:43 (nöbet)** Süreç canlı (PID 2340, Normal öncelik, 1,00 çekirdek), `motor.err` 0 bayt, henüz askı yok.
+Geçen 6 sa 37 dk; gövde aşaması 4 sa 56 dk, hâlâ ingiltere: gün 1094/1317 (1899).
+- **İngiltere [ÖLÇÜLDÜ]:** 06:40 → 08:40 arası 714 → 1094 gün ⇒ gün başına 18,9 sn. Kalan 223 gün ≈ 70 dk;
+  askı olmasa ~09:50'de biterdi. pkl hâlâ 1.927. Önbellekte yeni satır yok (466.816).
+- **BELLEK — ÖLÇÜMÜN ANA BULGUSU [ÖLÇÜLDÜ]:** özel 15,9 GB (tepe) · çalışma 13,5 GB · boş RAM 1,98 GB (en az)
+  · boş commit 30,2 GB. `_VARLIK_ONBELLEK` 645 epok; 08:17'de 582 epok · 2.754.543 ayrık geometri
+  (2.752.632'si PETEK_D ile paylaşılmıyor) · 146,0 milyon köşe ⇒ **her epok ~4.730 YENİ geometri nesnesi
+  üretiyor, epoklar arasında paylaşım yok** (bir kırılmada birkaç petek değiştiği hâlde 5.649 peteğin
+  ~%84'ü yeniden kuruluyor). 379 → 645 epokta özel +4,2 GB ⇒ epok başına ~15,8 MB (artıyor: 8 → 11,8 → 15,8).
+  Gövde başındaki 7,7 GB'ın üstüne binen 8,2 GB'ın tamamına yakını bu yapı.
+- **Öngörü [TAHMİN, doğrusal]:** 1.173 epokun hepsi dolarsa özel ~23–24 GB. Koşu 40'la tutarlı (ana süreç
+  16,6 + işçi 7,4 = 24 GB; orada iki sürece bölünmüştü). Yani tek süreç 16 GB'lık makineye sığmıyor; 19:00'dan
+  sonra sayfa dosyasına taşarak koşacak (commit payı yeterli, çökmez; hız kaybı ÖLÇÜLECEK).
+- **Kod notu [KOD, `uret_petek.py:3366`, `:6229-6425`]:** `_VARLIK_ONBELLEK` sınırsız sözlük; `MOTOR_EZBER_TAVAN`
+  ona dokunmuyor ("~15 sn/çağrı" diye bilerek bırakılmış). İngiltere'nin gün başına 13–30 sn'si de büyük
+  ölçüde bu ilk-epok hesabı; sonraki devletler epokları bellekten bulacak (04:43 varsayımını kod yorumu
+  destekliyor; hız ölçümü ingiltere bitince). Sonraki tam inşa için: epok = taban + yalnız değişen petekler
+  (paylaşımlı), ya da köşe dizisi olarak sakla; kazanç ~15 GB.
+- **09:00:** boş RAM 2,5 GB eşiğinin altında ⇒ nöbetçi mesai başında askıya alacak. Askı yolunun ilk gerçek
+  sınavı; 09:04'te ayrıca bakılacak.
+- **Karar:** sürdür.
+
