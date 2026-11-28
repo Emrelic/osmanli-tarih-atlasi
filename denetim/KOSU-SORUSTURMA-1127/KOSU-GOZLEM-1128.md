@@ -147,3 +147,20 @@ Geçen 2 sa 04 dk. Ön aşamalar 1 sa 41 dk'da bitti (Koşu 40: 2 sa 11 dk); var
   ~1 sa + seyreltme ~16 dk + çıktı yazımı ölçülmedi); Ⓑ ayrı süreç ondan sonra, 2–6 gün (ölçülmedi).
 - **Karar:** sürdür. Durdurmayı haklı çıkaran hata yok; görülen israf tuz dosyasında, koşu içinde giderilemez.
 
+**04:43 (nöbet)** Süreç canlı (PID 2340, Normal öncelik, 1,00 çekirdek), `motor.err` 0 bayt, askı yok. Geçen
+2 sa 38 dk; gövde aşaması 56 dk, hâlâ ingiltere: gün 411/1317 (1502).
+- **İngiltere yavaşlıyor [ÖLÇÜLDÜ]:** 5 dk'da gün sayısı 18 · 18 · 22 · 16 · 10 · 10 ⇒ son 10 dakikada gün
+  başına ~30 sn (04:10'da 13–20 sn idi). Kalan 906 gün 30–60 sn/gün ile 7,5–15 saat [TAHMİN].
+- **Önbellek:** hâlâ tek yeni satır yok (en büyük satır 466.816) ⇒ ıska yok; süre önbellek dışı işte.
+  Varsayımım (ÖLÇÜLMEDİ): bir kısmı her yeni epok için `petek_epok`un ilk hesabı; öyleyse sonraki devletler
+  bu epokları bellekten bulur ve daha hızlı geçer.
+- **`_VARLIK_ONBELLEK` büyüyor [ÖLÇÜLDÜ, bellek-derin.csv 04:16]:** 80 epok · 418.980 geometri (418.053'ü
+  PETEK_D ile paylaşılmıyor) · 13,0 milyon köşe; yani epok başına 5.237 geometrinin tam kopyası. 04:16 → 04:43:
+  80 → 126 epok, özel 8,3 → 8,7 GB ⇒ epok başına ~8 MB. Toplam 1.173 varlık kırılması var ⇒ hepsi dolarsa
+  +8 GB, özel ~17 GB [TAHMİN, doğrusal]. Bu, Koşu 40'ın 16,6 GB tepesiyle uyumlu ve raporun §4.2'deki
+  "boşaltılmayan yapı" adayının ilk ölçümü.
+- **Mesai riski somutlaştı:** özel 8,7 · çalışma 8,1 · boş RAM 6,3 GB (en az). Nöbetçi mesaide boş RAM
+  < 2,5 GB olunca askıya alır; bu, özel ~12,5 GB (≈600 epok) dolayında olur. İngiltere bugün 09–19 arasında
+  oraya varırsa koşu 19:00'a kadar askıda kalır. Eşik eczane kuralıdır, gevşetilmez.
+- **Karar:** sürdür.
+
